@@ -26,3 +26,9 @@ Source - https://archive.ics.uci.edu/ml/datasets/Airfoil+Self-Noise
 | ---- | --- |
 | Linear Regression (sklearn) | 0.0158 |
 | MLPRegressor(sklearn) | 0.00317 |
+
+## Conclusion
+* By observing the graphs above, we see that the points for the neural network graph lie much closer to the dotted line(bisector line) as compared to the graph for the linear regression model
+* This confirms that the predictions made by the neural network model are closer to the actual values as compared to those made by the linear model
+
+![Airfoil Noise Model Comparison Chart](airfoil_noise_models.png)
